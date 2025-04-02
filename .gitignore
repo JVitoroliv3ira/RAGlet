@@ -1,0 +1,55 @@
+# Poetry
+.poetry/
+.pytest_cache/
+
+# Environments
+.env
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyd
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testes
+.coverage
+htmlcov/
+.pytest_cache/
+
+# ChromaDB/Vector DB
+chroma_data/
+local_data/
+
+# Logs e debug
+*.log
+debug/
+
+# Arquivos de configuração local
+config.local.yaml
+keys.json
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Builds e packaging
+*.egg
+*.whl
