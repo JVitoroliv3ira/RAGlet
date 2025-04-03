@@ -11,6 +11,7 @@ typer = "^0.9.0"  # CLI essentials
 openai = "^1.12.0"  # Para embeddings e chat
 tiktoken = "^0.5.2"  # Token counting
 tree-sitter = "^0.20.1"  # Parsing de código
+numpy = "1.26.4"
 chromadb = "^0.4.15"  # Vector DB mais simples que FAISS
 rich = "^13.7.0"  # Output bonito
 
